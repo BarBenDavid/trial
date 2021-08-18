@@ -45,5 +45,5 @@ if __name__ == "__main__":
     parse.add_argument("--audio-extension", type=str, default="wav")
     parse.add_argument("--duration", type=int, default=3)
     args = parse.parse_args()
-    #i Had some changes here
+    #i Had some changes here and here
     main(args)
